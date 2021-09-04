@@ -4,6 +4,5 @@ class Sample6 {
     System.out.println("8進数の10は" + 010 + "です。");
     System.out.println("16進数の10は" + 0x10 + "です。");
     System.out.println("16進数のFは" + 0xF + "です。");
-    System.out.println("16進数のFは" + 0xF + "です。");
   }
 }
