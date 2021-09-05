@@ -13,5 +13,6 @@ class SampleP2 {
     System.out.println(0x6);
     System.out.println(0x14);
     System.out.println(0xD);
+    System.out.println(0xD);
   }
 }
