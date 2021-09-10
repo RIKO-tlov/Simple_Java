@@ -13,6 +13,6 @@ class SampleP5 {
     double num2 = Double.parseDouble(str2);
 
     System.out.println("身長は" + num1 + "センチです。");
-    System.out.println("体重は" + num2 + "キロです");
+    System.out.println("体重は" + num2 + "キロです。");
   }
 }
