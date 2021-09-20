@@ -1,6 +1,13 @@
+/*5-1
+①a >= 0 && a < 10
+②!(a = 0)
+③a >= 10 || a == 0
+*/
+
+//5-2
 import java.io.*;
 
-class Sample3 {
+class SampleP2 {
   public static void main(String[] args) throws IOException {
     System.out.println("整数を入力してください。");
 
@@ -9,10 +16,10 @@ class Sample3 {
     String str = br.readLine();
     int res = Integer.parseInt(str);
 
-    if(res == 1) {
-      System.out.println("1が入力されました。");
+    if((res % 2) == 0) {
+      System.out.println(res + "は偶数です。");
     } else {
-      System.out.println("1以外がが入力されました。");
+      System.out.println(res + "は奇数です。");
     }
   }
 }
