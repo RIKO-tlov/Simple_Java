@@ -7,6 +7,6 @@ class Sample6 {
       i++;
     } while(i <= 5);
 
-    System.out.println("繰り返しが終わりました");
+    System.out.println("繰り返しが終わりました。");
   }
 }
